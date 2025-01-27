@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Anonim</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <div class="text-anonim-container">
+            <header>
+                <h1>Text Anonim</h1>
+                <button class="close-btn" onclick="window.history.back();">&times;</button>
+            </header>
+
+            <div class="messages" id="messages">
+                <!-- Pesan akan muncul di sini -->
+            </div>
+
+            <div class="input-container">
+                <input type="text" id="messageInput" placeholder="Ketik pesan Anda...">
+                <button id="sendButton">➤</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
